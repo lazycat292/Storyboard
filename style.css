@@ -1,3 +1,20 @@
+#home{
+    font-size: 18px;
+    text-align: center;
+    margin: 50px;
+}
+#divleft{
+    text-align:left;
+    width:25%;
+}
+#divright{
+    width:25%;
+    float: right;
+    text-align: right;
+}
+#divmiddle{
+    width:50%;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -15,6 +32,8 @@ font-size:16px;
 }
 #topwrapper{
     margin:20px;
+    display: flex;
+    width: 100%;
 }
 #navigation{
     margin-left: 10%;
